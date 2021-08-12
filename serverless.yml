@@ -30,7 +30,7 @@ provider:
       auth0Authorizer:
         type: jwt
         identitySource: $request.header.Authorization
-        issuerUrl: dev-u68-wk5a.us.auth0.com/
+        issuerUrl: https://dev-u68-wk5a.us.auth0.com
         audience: https://example.nekoruri.jp/
 
 functions:
